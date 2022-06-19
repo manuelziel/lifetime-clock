@@ -1,0 +1,35 @@
+<!-- Display the countdown timer in an element -->
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lifetime</title>
+    <link href="src/lib/css/lifetime.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <h1>Lifetime</h1>
+  <h2>Set your Information's</h2>
+    <form>
+      <label id="labelGender">Gender:</label><br />
+      <select id="gender" name="gender">
+        <option value="1">Woman</option>
+        <option value="2">Men</option>
+      </select><br />
+
+      <label id="labelBDate">Birthday:</label><br />
+      <input type="date" id="bDate"/>
+      <br />
+
+      <label id="labelLExp">Life Expectancy:</label><br />
+      <input type="number" id="lifeExpectancy">
+      <br />
+
+    </form><hr />
+    <button id="calcBTN">Calc</button>
+    <button id="resetBTN">Reset</button>
+    <p id="calcTime"></p>
+    <p id="info"></p>
+      <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+      <script type="text/javascript" src="src/lib/js/lifetime.js"></script>
+  </body>
+</html>
