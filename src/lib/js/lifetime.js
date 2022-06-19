@@ -495,7 +495,6 @@ class ClassCalc{
 }
 let classCalc = new ClassCalc();
 
-// Class BTN Calc
 class ClassBTNCalc{
     set setBTN(val){
             this.btn = val;
@@ -561,7 +560,6 @@ class ClassStyle{
 }
 let classStyle = new ClassStyle();
 
-// Class BTN Reset
 class ClassBTNReset{
     set setBTN(val){
             this.btn = val;
